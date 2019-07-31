@@ -203,7 +203,7 @@
       <SubSystem>Windows</SubSystem>
       <ImportLibrary>.\Release/cximage.lib</ImportLibrary>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;$(OutDir)png.lib;$(OutDir)jpeg.lib;$(OutDir)zlib.lib;$(OutDir)tiff.lib;$(OutDir)jbig.lib;$(OutDir)mng.lib;$(OutDir)jasper.lib;$(OutDir)libdcr.lib;$(OutDir)libpsd.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;$(OutDir)png.lib;jpeg.lib;zlib.lib;$(OutDir)tiff.lib;libjbig.lib;$(OutDir)mng.lib;jasper.lib;$(OutDir)libdcr.lib;$(OutDir)libpsd.lib</AdditionalDependencies>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
