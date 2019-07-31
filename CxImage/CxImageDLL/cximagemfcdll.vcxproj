@@ -119,7 +119,7 @@
       <SubSystem>Windows</SubSystem>
       <ImportLibrary>.\Debug/cximaged.lib</ImportLibrary>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;$(OutDir)png.lib;$(OutDir)jpeg.lib;$(OutDir)zlib.lib;$(OutDir)tiff.lib;$(OutDir)jbig.lib;$(OutDir)mng.lib;$(OutDir)jasper.lib;$(OutDir)libdcr.lib;$(OutDir)libpsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;$(OutDir)png.lib;jpegd.lib;zlibd.lib;$(OutDir)tiff.lib;libjbig.lib;$(OutDir)mng.lib;jasperd.lib;$(OutDir)libdcr.lib;$(OutDir)libpsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
