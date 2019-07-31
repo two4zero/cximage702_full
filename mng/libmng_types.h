@@ -171,7 +171,7 @@
 #endif
 
 #ifdef MNG_INCLUDE_ZLIB                /* zlib by Mark Adler & Jean-loup Gailly */
-#include "../zlib/zlib.h"
+#include <zlib.h>
 #endif
 
 #ifdef MNG_INCLUDE_LCMS                /* little cms by Marti Maria Saguer */
@@ -194,7 +194,7 @@
 #undef FAR                             /* possibly defined by zlib or lcms */
 #endif
 #define JPEG_INTERNAL_OPTIONS          /* for RGB_PIXELSIZE */
-#include "../jpeg/jpeglib.h"                   /* all that for JPEG support  :-) */
+#include <jpeglib.h>                   /* all that for JPEG support  :-) */
 #endif /* MNG_INCLUDE_IJG6B */
 
 #if defined(MNG_INTERNAL_MEMMNGMT) || defined(MNG_INCLUDE_FILTERS)
