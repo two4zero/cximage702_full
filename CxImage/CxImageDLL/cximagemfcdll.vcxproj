@@ -252,24 +252,12 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\jbig\jbig.vcxproj">
-      <Project>{c8353fee-3bbd-40f4-aa72-4d6468277d91}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\jpeg\Jpeg.vcxproj">
-      <Project>{c672d3df-2ff3-45b9-9a46-09d7be07dcf4}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="..\..\png\png.vcxproj">
       <Project>{121b23ff-d088-4cf7-a72d-d2552a142c2c}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\..\tiff\Tiff.vcxproj">
       <Project>{6e2d8fa1-609c-4e39-97b9-679834179db4}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\zlib\zlib.vcxproj">
-      <Project>{5d1b5573-7d19-468c-a4ef-da583716f370}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

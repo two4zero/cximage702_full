@@ -249,18 +249,6 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\jasper\jasper.vcxproj">
-      <Project>{81c530e5-d74c-4a3e-b313-7ebd75698949}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\jbig\jbig.vcxproj">
-      <Project>{c8353fee-3bbd-40f4-aa72-4d6468277d91}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\jpeg\Jpeg.vcxproj">
-      <Project>{c672d3df-2ff3-45b9-9a46-09d7be07dcf4}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="..\..\libpsd\libpsd.vcxproj">
       <Project>{838ee52e-ecb0-4256-89d5-8418b5f14e21}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
@@ -279,10 +267,6 @@
     </ProjectReference>
     <ProjectReference Include="..\..\tiff\Tiff.vcxproj">
       <Project>{6e2d8fa1-609c-4e39-97b9-679834179db4}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\zlib\zlib.vcxproj">
-      <Project>{5d1b5573-7d19-468c-a4ef-da583716f370}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
